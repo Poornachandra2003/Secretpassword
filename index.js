@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true}));
 
 function passwordCheck(req, res, next) {
 
-    if(req.body["password"]=="ILoveProgramming")
+    if(req.body["password"]=="Password")
     {
     userSucess=true;
     }
